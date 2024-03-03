@@ -1,0 +1,127 @@
+@media screen and (max-width: 1199px) {
+    #banner-section h1 {
+        font-size: 36px;
+        line-height: 48px;
+        margin-bottom: 25px;
+    }
+
+    #banner-section p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 25px;
+    }
+
+    #banner-section {
+        padding-top: 45px;
+        height: 600px;
+    }
+
+    #form-section-wrapper h2 {
+        font-size: 36px;
+        line-height: 48px;
+        margin-bottom: 5px;
+    }
+
+    #form-section-wrapper p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .banner-content-column-wrapper {
+        flex: 0 0 50%;
+    }
+    
+    .banner-img-slider-wrapper {
+        flex: 0 0 45%;
+        width: auto !important;
+        text-align: center;
+    }
+
+    #banner-section {
+        background-size: cover;
+    }
+
+    #form-section-wrapper {
+        padding: 50px 0 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #banner-section {
+        padding-top: 80px;
+        height: 100%;
+        background-size: cover;
+        padding-bottom: 200px;
+    }
+
+    .banner-content-column-wrapper {
+        flex: 0 0 100%;
+    }
+    
+    .banner-img-slider-wrapper {
+        flex: 0 0 100%;
+        width: auto !important;
+    }
+
+    #banner-section h1 {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 15px;
+    }
+
+    #form-section-wrapper h2 {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 5px;
+    }
+
+    .banner-container {
+        row-gap: 55px;
+    }
+
+    .banner-img-slider-wrapper {
+        text-align: center;
+    }
+
+    .banner-img-slider-wrapper img {
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .form-wrapper {
+        gap: 15px 20px;
+        margin-top: 30px;
+    }
+
+    #form-section-wrapper {
+        padding: 0px 0 150px;
+    }
+
+    .form-container {
+        padding: 32px 16px;
+    }
+
+    #email-field, #phone-field {
+        flex: 1 0 100%;
+    }
+
+    .form-wrapper input, .form-wrapper select {
+        height: 45px;
+    }
+
+    .form-wrapper input, .form-wrapper select, .form-wrapper textarea {
+        padding: 0 14px;
+    }
+
+    .form-wrapper textarea {
+        height: 140px;
+        padding: 14px;
+    }
+
+    .form-wrapper label {
+        margin-bottom: 5px;
+    }
+}

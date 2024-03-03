@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    width: clamp(300px, calc(100% - 40px), 1080px);
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+#header {
+    position: relative;
+    background-color: #03062F;
+}
+
+ .header-wrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+#banner-section {
+    background: url('../images/Banner\ Image.svg') no-repeat top center / 100% #F1F5F9;
+    height: 810px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-top: 70px;
+}
+
+#banner-section h1 {
+    font-size: 40px;
+    line-height: 53px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+}
+
+#banner-section p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 35px;
+}
+
+#banner-section a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700;
+    /*! margin-top: 20px; */
+    padding: 15px 20px;
+    background-color: #2783F3;
+    border-radius: 4px;
+    transition: 0.5s all;
+}
+
+#banner-section a:hover {
+    background-color: #03062F;
+    transition: 0.5s all;
+}
+
+.banner-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content-column-wrapper {
+    flex: 0 0 40%;
+}
+
+.banner-img-slider-wrapper {
+    flex: 0 0 39%;
+    width: auto !important;
+}
+
+.slider-flex-wrapper-banner {
+    text-align: center;
+}
+
+.banner-img-slider-wrapper img {
+    width: auto;
+    object-fit: cover;
+}
+
+.banner-img-slider-wrapper .slider-dots {
+    width: auto;
+    margin-top: 15px;
+}
+
+/* Form Section Styles */
+#form-section-wrapper {
+    background-color: #F1F5F9;
+    padding: 50px 0 150px;
+}
+
+.form-container {
+    width: clamp(300px, calc(100% - 32px), 768px);
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0px 91px 36px rgba(0, 0, 0, 0.01), 0px 51px 31px rgba(0, 0, 0, 0.05), 0px 23px 23px rgba(0, 0, 0, 0.09), 0px 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    padding: 64px;
+}
+
+#form-section-wrapper h2 {
+    font-size: 40px;
+    line-height: 120%;
+    font-weight: 700;
+    color: #03062F;
+    text-align: center;
+    margin-bottom: 15px;
+}
+  
+#form-section-wrapper p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgba(3, 6, 47, 0.7);
+    text-align: center;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 20px;
+    margin-top: 48px;
+}
+
+.form-wrapper label {
+    display: block;
+    font-size: 16px;
+    line-height: 150%;
+    color: #03062F;
+    margin-bottom: 10px;
+}
+
+.form-wrapper input, .form-wrapper select, .form-wrapper textarea {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background-color: #FFFFFF;
+    outline: 0;
+    width: 100%;
+    padding: 0 20px;
+    color: #505050;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.form-wrapper textarea::placeholder {
+    color: #505050;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    opacity: 1;
+    font-family: "Inter", sans-serif;
+}
+
+.form-wrapper textarea::-moz-placeholder {
+    color: #505050;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    opacity: 1;
+    font-family: "Inter", sans-serif;
+}
+
+.form-wrapper textarea {
+    height: 180px;
+    padding: 20px;
+}
+
+.form-wrapper input, .form-wrapper select {
+    height: 48px;
+}
+
+.form-wrapper select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url(../images/Vector.svg) no-repeat 98% 50%;
+}
+
+#name-field, #select-field, #message-field, #submit-bttn {
+    flex: 1 0 100%;
+}
+
+#email-field, #phone-field {
+    flex: 1 0 45%;
+}
+
+#submit-bttn {  
+    text-align: center;
+}
+
+#submit {
+    background-color: #2783F3;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #FFF;
+    width: 93px;
+    height: 48px;
+    margin: 0 auto;
+    cursor: pointer;
+}
